@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Nomes - Beatryz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Lista de Nomes</h1>
+        <p class="descricao">Adiciona nomes à tua lista de forma simples!</p>
+        <form id="formulario">
+            <label for="nome">Digite um nome:</label>
+            <div class="campo">
+                <input type="text" id="nome" placeholder="Escreve um nome..." required>
+                <button type="submit">Adicionar</button>
+            </div>
+        </form>
+        <section class="resultado">
+            <h2>Nomes adicionados</h2>
+            <ul id="lista"></ul>
+        </section>
+        <p id="contador">Total de nomes: 0</p>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
